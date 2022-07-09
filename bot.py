@@ -26,6 +26,7 @@ async def help(ctx):
 async def cs(ctx, arg):
     embed = discord.Embed(title=ctx.author.name + " is on a server ! :{}:".format(emojiPicker()), description="Join him before no more slots left.\n\n**connect {}**".format(arg), color=discord.Colour.from_rgb(234, 200, 115))
     embed.set_thumbnail(url=ctx.author.avatar_url)
+    await ctx.message.delete()
     await ctx.send(embed=embed)
 
 @client.command()
