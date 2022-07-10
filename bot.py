@@ -45,7 +45,7 @@ async def ping(ctx):
 
 @client.command()
 async def meme(ctx):
-    subreddit_list = ["dankmemes", "FrenchMemes", "memes"]
+    subreddit_list = ["dankmemes", "DankMemesFromSite19", "FrenchMemes", "HistoryMemes", "meme", "memes", "ProgrammerHumor"]
     subreddit = reddit.subreddit(random.choice(subreddit_list))
     all_submis = []
     top = subreddit.top(limit = 50)
