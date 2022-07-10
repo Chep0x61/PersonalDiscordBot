@@ -32,7 +32,13 @@ async def help(ctx):
     await ctx.send(embed=embed)
 
 @client.command()
-async def cs(ctx, arg):
+async def cs(ctx, arg=None):
+    if arg is None or ':' not in arg:
+        embed = discord.Embed(title=":warning:  Wrong Usage :warning: ", description="An IP is required !", color=discord.Colour.red())
+        embed.add_field(name="Example ⬇️ ", value="`!cs IP:PORT` :white_check_mark:")
+        await ctx.message.delete()
+        await ctx.send(embed=embed)
+        return
     embed = discord.Embed(title=ctx.author.name + " is on a server ! :{}:".format(emojiPicker()), description="Join him before no more slots left.\n\n**connect {}**".format(arg), color=discord.Colour.from_rgb(234, 200, 115))
     embed.set_thumbnail(url=ctx.author.avatar_url)
     await ctx.message.delete()
@@ -57,6 +63,7 @@ async def meme(ctx):
     embed = discord.Embed(title=title, color=discord.Colour.from_rgb(234, 200, 115))
     embed.set_image(url=pic)
     embed.set_footer(text="r/{}".format(subreddit), icon_url=subreddit.icon_img)
+    await ctx.message.delete()
     await ctx.send(embed=embed)
 
 def emojiPicker():
