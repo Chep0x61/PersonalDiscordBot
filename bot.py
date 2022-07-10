@@ -24,7 +24,8 @@ async def on_ready():
 
 @client.command()
 async def help(ctx):
-    embed = discord.Embed(title="⬇️ Help ⬇️", description="Avaible commands", color=discord.Colour.from_rgb(234, 200, 115))
+    embed = discord.Embed(title="⬇️ Help ⬇️", description="Available commands", color=discord.Colour.from_rgb(234,
+                                                                                                              200, 115))
     embed.set_image(url="https://cdn.pixabay.com/photo/2015/12/24/15/05/computer-1106900_960_720.jpg")
     embed.add_field(name="cs", value="Paste your ip to generate the connect csgo command", inline=False)
     embed.add_field(name="meme", value="Get a random meme from Reddit", inline=False)
@@ -39,7 +40,9 @@ async def cs(ctx, arg=None):
         await ctx.message.delete()
         await ctx.send(embed=embed)
         return
-    embed = discord.Embed(title=ctx.author.name + " is on a server ! :{}:".format(emojiPicker()), description="Join him before no more slots left.\n\n**connect {}**".format(arg), color=discord.Colour.from_rgb(234, 200, 115))
+    embed = discord.Embed(title=ctx.author.name + " is on a server ! :{}:".format(emojiPicker()),
+                          description="Join him before there are no more slots left.\n\n**connect {}**".format(arg),
+                          color=discord.Colour.from_rgb(234, 200, 115))
     embed.set_thumbnail(url=ctx.author.avatar_url)
     await ctx.message.delete()
     await ctx.send(embed=embed)
