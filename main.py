@@ -3,7 +3,7 @@ import os
 from discord.ext import commands
 from dotenv import load_dotenv
 
-from Help.help import HelpCommand
+from Help.help import EmbeddedHelp
 from Commands import Ping, Memes, CSGO
 from Events import BotEvents
 
@@ -18,7 +18,7 @@ def main():
     client.add_cog(Memes.Memes(client))
     client.add_cog(CSGO.CSGO(client))
 
-    client.run(os.getenv('token'), help_command=HelpCommand)
+    client.run(os.getenv('token'), help_command=EmbeddedHelp)
 
 
 if __name__ == "__main__":
