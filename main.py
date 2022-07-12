@@ -18,7 +18,7 @@ def main():
     client.add_cog(Memes.Memes(client))
     client.add_cog(CSGO.CSGO(client))
 
-    client.run(os.getenv('token'), help_command=EmbeddedHelp)
+    client.run(os.getenv('token'), help_command=EmbeddedHelp())
 
 
 if __name__ == "__main__":
