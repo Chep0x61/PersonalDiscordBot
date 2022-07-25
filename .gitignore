@@ -1,3 +1,4 @@
 .env
 notes
 .idea/
+__pycache__
