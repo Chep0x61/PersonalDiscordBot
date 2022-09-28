@@ -22,13 +22,21 @@ docker run -d {name}
 ```
 
 ## Features
-#### Little preview of the biggest features of the bot. If you want to try them, don't forget the command prefix `!`
+#### Little preview of the biggest features of the bot. If you want to try them, don't forget the command prefix `!`.
+
+<br/>
 
 ### `cs`
+#### Simplify sharing of the connect command of cs:go.
+![](https://github.com/Chep0x61/PersonalDiscordBot/blob/main/.github/assets/cs.gif?raw=true)
 
 ### `meme`
+#### Get a random meme from [Reddit](https://www.reddit.com).
+![](https://github.com/Chep0x61/PersonalDiscordBot/blob/main/.github/assets/meme.gif?raw=true)
 
 ### `ping`
+#### Get the latency in `ms` of the bot.
+![](https://github.com/Chep0x61/PersonalDiscordBot/blob/main/.github/assets/ping.gif?raw=true)
 
 ## Contributors
 
