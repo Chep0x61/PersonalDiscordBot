@@ -22,7 +22,7 @@ docker run -d {name}
 ```
 
 ## Features
-#### Little preview of the biggest features of the bot. If you want to try them, don't forget the prefix command `!`
+#### Little preview of the biggest features of the bot. If you want to try them, don't forget the command prefix `!`
 
 ### `cs`
 
