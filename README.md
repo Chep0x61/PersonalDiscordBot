@@ -11,6 +11,10 @@ Young Discord Bot still work in progres with [Discord.py](https://discordpy.read
 
 #### Don't forget to create and setup your own `.env` file based on the `.env.example` file.
 
+<br/>
+
+#### In case of you don't know how to find all informations look at [Discord](https://discord.com/developers/applications) & [Reddit](https://www.reddit.com/prefs/apps/) 
+
 ```bash
 docker build -t {name} .
 ```
