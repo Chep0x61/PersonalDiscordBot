@@ -11,7 +11,7 @@ Young Discord Bot still work in progres with [Discord.py](https://discordpy.read
 
 #### Don't forget to create and setup your own `.env` file based on the `.env.example` file.
 
-#### In case of you don't know how to find all informations look at [Discord](https://discord.com/developers/applications) & [Reddit](https://www.reddit.com/prefs/apps/) 
+#### In case of you don't know how to find all informations look at [Discord](https://discord.com/developers/applications) & [Reddit](https://www.reddit.com/prefs/apps/).
 
 ```bash
 docker build -t {name} .
@@ -22,8 +22,17 @@ docker run -d {name}
 ```
 
 ## Features
+#### Little preview of the biggest features of the bot. If you want to try them, don't forget the prefix command `!`
+
+### `cs`
+
+### `meme`
+
+### `ping`
 
 ## Contributors
 
 | [<img src="https://github.com/Chep0x61.png?size=85" width=85><br><sub>Chep0x61</sub>](https://github.com/Chep0x61) | [<img src="https://github.com/Breigner01.png?size=85"/><br/><sub>Benjamin Reigner</sub>](https://github.com/Breigner01) | [<img src="https://github.com/MaximeHouis.png?size=85"/><br/><sub>Maxime Houis</sub>](https://github.com/MaximeHouis)
 | :---: | :---: | :---:
+
+#### I hope my ReadMe was useful and i want to send a special thanks to every contributors right above ! :heart:
