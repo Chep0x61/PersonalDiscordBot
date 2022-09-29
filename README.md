@@ -1,6 +1,6 @@
 # PersonalDiscordBot
 
-Young Discord Bot still work in progres with [Discord.py](https://discordpy.readthedocs.io/en/stable/)
+### Young Discord Bot still work in progres with [Discord.py](https://discordpy.readthedocs.io/en/stable/)
 
 ## Project Stack
 
@@ -43,4 +43,4 @@ docker run -d {name}
 | [<img src="https://github.com/Chep0x61.png?size=85" width=85><br><sub>Chep0x61</sub>](https://github.com/Chep0x61) | [<img src="https://github.com/Breigner01.png?size=85"/><br/><sub>Benjamin Reigner</sub>](https://github.com/Breigner01) | [<img src="https://github.com/MaximeHouis.png?size=85"/><br/><sub>Maxime Houis</sub>](https://github.com/MaximeHouis)
 | :---: | :---: | :---:
 
-#### I hope my ReadMe was useful and i want to send a special thanks to every contributors right above ! :heart:
+#### I hope this ReadMe was useful and i want to send a special thanks to every contributors right above ! :heart:
