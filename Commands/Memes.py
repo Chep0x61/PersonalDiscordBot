@@ -36,7 +36,7 @@ class Memes(commands.Cog):
         sub = random.choice(all_submis)
         title = sub.title
         pic = sub.url
-        embed = discord.Embed(title=title, color=discord.Colour.from_rgb(234, 200, 115))
+        embed = discord.Embed(title=title, color=discord.Colour.from_rgb(255, 69, 0))
         embed.set_image(url=pic)
         embed.set_footer(text="r/{}".format(subreddit), icon_url=subreddit.icon_img)
         await ctx.message.delete()
