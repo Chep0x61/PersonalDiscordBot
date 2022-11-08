@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+    bot:
+        image: personal-discord-bot
+        build: .
+        restart: always
+        environment:
+            token: ${token}
+            r_id: ${r_id}
+            r_secret: ${r_secret}
+            r_username: ${r_username}
+            r_pwd: ${r_pwd}
+            r_uagent: ${r_uagent}
