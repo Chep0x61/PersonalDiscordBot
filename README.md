@@ -14,11 +14,11 @@
 #### In case of you don't know how to find all informations look at [Discord](https://discord.com/developers/applications) & [Reddit](https://www.reddit.com/prefs/apps/).
 
 ```bash
-docker build -t {name} .
+docker-compose build
 ```
 
 ```bash
-docker run -d {name}
+docker-compose up -d
 ```
 
 ## Features
@@ -40,7 +40,7 @@ docker run -d {name}
 
 ## Contributors
 
-| [<img src="https://github.com/Chep0x61.png?size=85" width=85><br><sub>Chep0x61</sub>](https://github.com/Chep0x61) | [<img src="https://github.com/Breigner01.png?size=85"/><br/><sub>Benjamin Reigner</sub>](https://github.com/Breigner01) | [<img src="https://github.com/MaximeHouis.png?size=85"/><br/><sub>Maxime Houis</sub>](https://github.com/MaximeHouis)
-| :---: | :---: | :---:
+| [<img src="https://github.com/Chep0x61.png?size=85" width=85><br><sub>Chep0x61</sub>](https://github.com/Chep0x61) | [<img src="https://github.com/Breigner01.png?size=85"/><br/><sub>Benjamin Reigner</sub>](https://github.com/Breigner01) | [<img src="https://github.com/MaximeHouis.png?size=85"/><br/><sub>Maxime Houis</sub>](https://github.com/MaximeHouis) |
+|:------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|
 
 #### I hope this ReadMe was useful and i want to send a special thanks to every contributors right above ! :heart:
