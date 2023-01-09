@@ -1,6 +1,6 @@
 # PersonalDiscordBot
 
-### Young Discord Bot still work in progres with [Discord.py](https://discordpy.readthedocs.io/en/stable/)
+### Young Discord Bot still work in progress with [Discord.py](https://discordpy.readthedocs.io/en/stable/)
 
 ## Project Stack
 
